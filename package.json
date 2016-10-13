@@ -1,5 +1,5 @@
 {
-  "name": "Burger-The-Sequel",
+  "name": "burger-time",
   "version": "1.0.0",
   "description": "Burger logger using MySQL, Node, Express, Handlebars, Sequelize and a homemade ORM folloing MVC design pattern. ",
   "main": "server.js",
