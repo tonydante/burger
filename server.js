@@ -2,10 +2,15 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
+var session = require('express-session');
+var logger = require('morgan');
 
 var app = express();
 
 //SERVER STATIC CONTENT FOR TH APP FROM THE "PUBLIC DIRECTORY" IN THE APPLICATION DIRECTORY.
+
+
+
 
 app.use(express.static(process.cwd() + '/public'));
 //EXPRESS TO SERVER STATIC FILES 
